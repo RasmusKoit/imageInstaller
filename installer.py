@@ -101,10 +101,6 @@ def validateDisks(disks: list, userInput: str) -> bool:
 
 
 def writeImages(image: str, disks: list):
-    print(image)
-    print(disks)
-    # dcfldd if=masi.img of=/dev/disk2 of=/dev/disk3 of=/dev/disk4
-
     cmd = "dcfldd if=" + image
     for disk in disks:
         cmd = cmd.__add__(" of=" + disk)

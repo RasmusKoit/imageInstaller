@@ -1,0 +1,6 @@
+Igatahes ma tahan programmi/skripti/koodi, mis
+1. Listiks kõik failid teatud kaustas (nt Documents kaustas)
+2. Küsiks kasutjaalt, mis .img faili ta tahab kasutada
+3. Listiks kasutajale kõik kettad, v.a sda, sest see on süsteemiketas ja seda pole vaja näppida
+4. Küsiks kasutajalt, milliseid kettaid ta tahab kasutada
+5. DD-ga .img kettale
